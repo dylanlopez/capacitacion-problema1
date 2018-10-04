@@ -1,0 +1,7 @@
+version: "2"
+services:
+    nginx:
+        container_name: nginxalpine2
+        image: "dylanlopez666/orbis-training-docker:1.2.0"
+        ports: 
+            - "1081:80"
